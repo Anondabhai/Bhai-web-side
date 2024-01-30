@@ -143,3 +143,31 @@ nav a{
     font-size:30px;
     font-weight:700;
  }
+
+.resume-contner {
+    display:flex;
+    gap:50px;
+}
+
+.resume-itms-title{
+    color:#181818;
+    font-size:45px;
+    font-weight:600;
+    margin-bottom:10px;
+    
+}
+
+.resume-itms-intitute{
+    margin-bottom:20px;
+    margin-top:0px;
+}
+
+.resume-itms-description,.resume-itms-intitute{
+    color:#757575;
+}
+
+
+.dowenload-CV{
+    text-align:center;
+    margin-top:50px;
+}
