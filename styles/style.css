@@ -6,6 +6,20 @@ body{
 /* headeer related style */
 .header{
     background-color: #fff8f3;
+    background-image: url('../images/header_bg.png');
+    background-repeat:no-repeat;
+    background-position:bottom right;
+}
+.section-title{
+    color:#181818;
+    text-align:center;
+    font-size:35px;
+    font-weight:700;
+}
+.section-description{
+    color: #757575;
+    text-align:center;
+    font-size: 18px;
 }
 
 /* nav related style */
@@ -30,7 +44,7 @@ nav > ul{
 }
 nav li{
     list-style:none;
-    text-align: center;
+    /* text-align: center; */
 }
 nav a{
     text-decoration:none;
@@ -51,10 +65,39 @@ nav a{
     border:0;
 }
  .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display:flex;
     align-items: center;
+    justify-content:space-between;
  }
+.banner-content{
+    max-width: 500px;
+}
+
  .banner,.profile-pic{
     display:flex;
+
+ }
+ .profile-pic{
+    width:auto;
+ }
+ .banner-title{
+    font-size:45px;
+    color:#474747;
+    margin-bottom:0;
+ }
+
+ .banner-heading{
+    font-size:45px;
+    font-weight:700;
+    margin-top:5px;
+    margin-bottom:20px;
+ }
+ /* main section style */
+
+ /*About main secetion style */
+ .content{
+    padding:130px;
+    background-color:#FFF8F3;
+    margin: 150px 0;
  }
