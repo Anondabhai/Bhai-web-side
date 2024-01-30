@@ -1,0 +1,47 @@
+/* shard style related */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* nav related style */
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+   
+}
+.bhai-title{
+    font-size:45px;
+    font-weight: 700;
+   
+}
+
+nav > ul{
+    display:flex;
+    align-items: center;
+   
+}
+nav li{
+    list-style:none;
+    text-align: center;
+}
+nav a{
+    text-decoration:none;
+    margin-right:50px;
+}
+
+.text-primary{
+    color:orange;
+}
+
+.bac-title{
+    background:orange;
+    border-radius:5px;
+    color:white;
+    font-size:25px;
+    font-weight:700;
+    padding: 15px 35px;
+    border:0;
+}
