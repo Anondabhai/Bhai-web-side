@@ -3,6 +3,10 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+/* headeer related style */
+.header{
+    background-color: #fff8f3;
+}
 
 /* nav related style */
 
@@ -10,6 +14,7 @@ nav{
     display:flex;
     justify-content:space-between;
     align-items: center;
+    margin:0 200px;
    
 }
 .bhai-title{
@@ -45,3 +50,11 @@ nav a{
     padding: 15px 35px;
     border:0;
 }
+ .banner{
+    padding: 30px 30px 30px 150px;
+    display:flex;
+    align-items: center;
+ }
+ .banner,.profile-pic{
+    display:flex;
+ }
