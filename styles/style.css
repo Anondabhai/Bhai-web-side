@@ -173,7 +173,30 @@ nav a{
 
 footer{
     display:flex;
+    gap:100px;
     background:#FFF8F3;
     padding:130px 200px;
     margin-top:100px;
+}
+
+.socail-link a{
+    margin:25px;
+}
+
+.footer-column{
+    width:50%;
+}
+
+.contact input[type='text'],input[type='e-mail'] textarea{
+    display:block;
+    margin-bottom:25px;
+    padding: 18px 35px;
+    color:#757575;
+    background-color: #FFF;
+    border:0;
+    width:100%;
+
+}
+.contcat{
+
 }
