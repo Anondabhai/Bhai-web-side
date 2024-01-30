@@ -104,7 +104,6 @@ nav a{
     justify-content: space-around;
     font-weight:700;
     font-size:25px;
-
  }
 
  .about-info{
@@ -170,4 +169,11 @@ nav a{
 .dowenload-CV{
     text-align:center;
     margin-top:50px;
+}
+
+footer{
+    display:flex;
+    background:#FFF8F3;
+    padding:130px 200px;
+    margin-top:100px;
 }
